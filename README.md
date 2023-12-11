@@ -30,7 +30,7 @@ SECRET_KEY=6tzghjuifdfeymcmcpepwflcpwpeprpwdxsspvvc912121`
 
 - Adatbázis migrálása: `python manage.py migrate`
 
-- Opcionális adatbetöltés: `python manage.py loaddata sampledata.json` vagy `python manage.py testdata.json`. Az elsődleges kulcsok úgy vannak megírva, hogy egy adatbázisra csak az egyik illeszthető be közvetlenül a kezdeti migráció után. Előbbi JSON fájl rekordjai rendelkeznek némi valóságalappal, utóbbi kifejezetten teszthez generált adatokat tartalmaz.
+- Opcionális adatbetöltés: `python manage.py loaddata sampledata.json` vagy `python manage.py loaddata testdata.json`. Az elsődleges kulcsok úgy vannak megírva, hogy egy adatbázisra csak az egyik illeszthető be közvetlenül a kezdeti migráció után. Előbbi JSON fájl rekordjai rendelkeznek némi valóságalappal, utóbbi kifejezetten teszthez generált adatokat tartalmaz.
 
 - A szerver indítása (localhost:8000 porton): `python manage.py runserver`
 
