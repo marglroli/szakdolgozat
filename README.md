@@ -1,0 +1,2 @@
+# szakdolgozat
+ Sakkegyesületi nyilvántartó rendszer
