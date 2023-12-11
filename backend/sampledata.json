@@ -1,0 +1,276 @@
+[
+  {
+    "model": "api.User",
+    "pk": 2,
+    "fields": {
+      "email": "magnuscarlsen@test.com",
+      "fide_id": 1503014,
+      "is_male": true,
+      "name": "Carlsen Magnus",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 3,
+    "fields": {
+      "email": "hikarunakamura@test.com",
+      "fide_id": 2016192,
+      "is_male": true,
+      "name": "Nakamura Hikaru",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 4,
+    "fields": {
+      "email": "vishyanand@test.com",
+      "fide_id": 5000017,
+      "is_male": true,
+      "name": "Anand Viswanathan",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 5,
+    "fields": {
+      "email": "anishgiria@test.com",
+      "fide_id": 24116068,
+      "is_male": true,
+      "name": "Giri Anish",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 6,
+    "fields": {
+      "email": "kasparov@test.com",
+      "fide_id": 4100018,
+      "is_male": true,
+      "name": "Kasparov Garry",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 7,
+    "fields": {
+      "email": "bigvlad@test.com",
+      "fide_id": 4101588,
+      "is_male": true,
+      "name": " Kramnik Vladimir",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 8,
+    "fields": {
+      "email": "rapportricsi@test.hu",
+      "fide_id": 738590,
+      "is_male": true,
+      "name": "Rapport Richárd",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 9,
+    "fields": {
+      "email": "lekopeter@test.hu",
+      "fide_id": 703303,
+      "is_male": true,
+      "name": "Lékó Péter",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 10,
+    "fields": {
+      "email": "polgarjudit@test.hu",
+      "fide_id": 700070,
+      "is_male": false,
+      "name": "Polgár Judit",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 11,
+    "fields": {
+      "email": "susanpolgar@test.com",
+      "fide_id": 700088,
+      "is_male": false,
+      "name": "Polgár Zsuzsa",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 12,
+    "fields": {
+      "email": "gledurabenji@test.hu",
+      "fide_id": 712779,
+      "is_male": true,
+      "name": "Gledura Benjámin",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.User",
+    "pk": 13,
+    "fields": {
+      "email": "thejacket@test.com",
+      "fide_id": 12539929,
+      "is_male": true,
+      "name": "Maghsoodloo Parham",
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18="
+    }
+  },
+  {
+    "model": "api.Item",
+    "pk": 1,
+    "fields": {
+      "name": "DGT 2010 óra",
+      "type": 1,
+      "count": 12
+    }
+  },
+  {
+    "model": "api.Item",
+    "pk": 2,
+    "fields": { "name": "Saitek 2 óra", "type": 1, "count": 12 }
+  },
+  {
+    "model": "api.Item",
+    "pk": 4,
+    "fields": {
+      "name": "Staunton készlet",
+      "type": 2,
+      "count": 12
+    }
+  },
+  {
+    "model": "api.Item",
+    "pk": 3,
+    "fields": {
+      "name": "Dvoretsky's endgame manual",
+      "type": 3,
+      "count": 1
+    }
+  },
+  {
+    "model": "api.Tournament",
+    "pk": 1,
+    "fields": {
+      "name": "FIDE Grand Swiss",
+      "place": "Douglas (Man-sziget)",
+      "start_date": "2023-10-25",
+      "end_date": "2023-11-05",
+      "is_team": false,
+      "power_ranking_kept": false
+    }
+  },
+  {
+    "model": "api.Tournament",
+    "pk": 2,
+    "fields": {
+      "name": "Saint Louis Rapid & Blitz",
+      "place": " Saint Louis Chess Club (USA)",
+      "start_date": "2023-11-14",
+      "end_date": "2023-11-18",
+      "is_team": false,
+      "power_ranking_kept": false
+    }
+  },
+  {
+    "model": "api.Tournament",
+    "pk": 3,
+    "fields": {
+      "name": "Sinquefield Cup",
+      "place": " Saint Louis Chess Club (USA)",
+      "start_date": "2023-11-21",
+      "end_date": "2023-11-30",
+      "is_team": false,
+      "power_ranking_kept": false
+    }
+  },
+  {
+    "model": "api.Tournament",
+    "pk": 4,
+    "fields": {
+      "name": "Rapid Világbajnokság",
+      "place": "Samarkand (Üzbegisztán)",
+      "start_date": "2023-12-26",
+      "end_date": "2023-12-28",
+      "is_team": false,
+      "power_ranking_kept": false
+    }
+  },
+  {
+    "model": "api.Tournament",
+    "pk": 5,
+    "fields": {
+      "name": "Villám Világbajnokság",
+      "place": "Samarkand (Üzbegisztán)",
+      "start_date": "2023-12-29",
+      "end_date": "2023-12-30",
+      "is_team": false,
+      "power_ranking_kept": false
+    }
+  },
+  {
+    "model": "api.TournamentResult",
+    "pk": 1,
+    "fields": {
+      "tournament": 1,
+      "player": 3,
+      "category": "Összetett",
+      "place": 2
+    }
+  },
+  {
+    "model": "api.TournamentResult",
+    "pk": 2,
+    "fields": {
+      "tournament": 1,
+      "player": 5,
+      "category": "Összetett",
+      "place": 7
+    }
+  },
+  {
+    "model": "api.TournamentResult",
+    "pk": 3,
+    "fields": {
+      "tournament": 1,
+      "player": 13,
+      "category": "Összetett",
+      "place": 6
+    }
+  },
+  {
+    "model": "api.TournamentResult",
+    "pk": 4,
+    "fields": {
+      "tournament": 1,
+      "player": 8,
+      "category": "Összetett",
+      "place": 42
+    }
+  },
+  {
+    "model": "api.TournamentResult",
+    "pk": 5,
+    "fields": {
+      "tournament": 1,
+      "player": 12,
+      "category": "Összetett",
+      "place": 58
+    }
+  }
+]

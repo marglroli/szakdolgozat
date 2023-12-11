@@ -1,0 +1,63 @@
+https://json-generator.com/
+
+[
+  '{{repeat(100)}}',
+  {
+    'model': 'api.user',
+    'pk': '{{index(2)}}',
+    'fields':{
+      "email": '{{email()}}',
+      "name":  '{{surname()}} {{firstName()}}',
+      "password": "pbkdf2_sha256$600000$YEyd1WWSFbFMe3d2paDcdm$P+NOKJeNdkfsBDebGWluO2JJSPfHYsCiTaomGwE3x18=",
+      "address": '{{integer(1000, 9999)}} {{city()}}, {{street()}} {{integer(1,250)}}',
+      "birthdate": '{{date(new Date(1960, 0, 1), new Date(), "YYYY-MM-dd")}}',
+      "birthplace" : '{{city()}}',
+      "mother_name":  '{{surname()}} {{firstName()}}',
+      "is_male" : '{{bool()}}'
+  }
+  }
+]
+
+[
+  '{{repeat(100)}}',
+  {
+    'model': 'api.tournament',
+    'pk': '{{index(1)}}',
+    'fields':{
+      "name":  function (tags) {var str = tags.lorem(3, "words");
+                                return str.charAt(0).toUpperCase()+str.slice(1)+ ' Cup';},	
+      "place" : '{{city()}}',
+      "start_date": '{{date(new Date(2023, 01, 1), new Date(2024,02,28), "YYYY-MM-dd")}}',
+      "end_date" :  function(tags) {return this.start_date;},
+      "is_team" : '{{bool()}}',
+      "power_ranking_kept": 'false'
+  }
+  }
+]
+
+duplikált jelentkezés veszélyével!!
+[
+  '{{repeat(100)}}',
+  {
+    'model': 'api.tournamentapplication',
+    'pk': '{{index(1)}}',
+    'fields':{
+      "tournament": '{{integer(1, 100)}}',
+      "player": '{{integer(1, 100)}}',
+      "status": '{{random("Nem jövök", "Talán jövök", "Jövök")}}'
+  }
+  }
+]
+
+[
+  '{{repeat(200)}}',
+  {
+    'model': 'api.item',
+    'pk': '{{index(1)}}',
+    'fields':{
+    'name': '{{lorem(2, "words")}}',
+	'type': '{{integer(1,3)}}',
+    'count': '{{integer(1,20)}}'
+  }
+  }
+]
